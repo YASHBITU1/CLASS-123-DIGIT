@@ -19,7 +19,7 @@ if (not os.environ.get('PYTHONHTTPSVERIFY', '') and
 #Fetching the data
 X, y = fetch_openml('mnist_784', version=1, return_X_y=True)
 print(pd.Series(y).value_counts())
-classes = ['0', '1', '2','3', '4','5', '6', '7', '8', '9']
+classes = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 nclasses = len(classes)
 
 #Splitting the data and scaling it
